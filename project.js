@@ -2,7 +2,7 @@ let drinkCount = 0;
 
     const loadAllProduct = () => {
       document.getElementById('handleAdd').addEventListener('click', () => {
-        const searchValue = document.getElementById('search-box').value.trim();
+        const searchValue = document.getElementById('search-box').value;
         const productContainer = document.getElementById('product-container');
         const detailsContainer = document.getElementById('food-details');
         
